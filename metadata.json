@@ -1,0 +1,7 @@
+{
+  "name": "인권 침해 사례 분석 온라인 학습지",
+  "description": "중학교 사회·도덕 인권 침해 사례 분석 온라인 학습지, AI 모범답안 비교 채점 및 피드백, 임시저장, 구글 시트 연동 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
