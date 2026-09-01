@@ -67,11 +67,13 @@ export interface SubmissionRecord {
   id: string;
   studentId: string; // e.g. "1학년 2반 15번"
   studentName: string;
+  school?: string;
   grade: 'A' | 'B' | 'C';
   score: number;
   feedback: string;
   submittedAt: string;
   answers: WorksheetAnswers;
+  evaluation?: OverallEvaluation;
   detailedEvaluation?: OverallEvaluation;
   syncedToGas?: boolean;
   gasResponse?: string;
