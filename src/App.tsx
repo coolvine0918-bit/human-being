@@ -301,9 +301,9 @@ export default function App() {
       />
 
       {/* Main Worksheet Container */}
-      <main className="max-w-5xl w-full mx-auto px-4 py-6 sm:py-8 flex-1 print:hidden">
+      <main className="max-w-5xl w-full mx-auto px-3 sm:px-4 py-4 sm:py-6 flex-1 print:hidden">
         {/* Sample Answer Loader & Guide Callout */}
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-3 bg-white border border-slate-300 rounded-lg px-4 py-3 shadow-xs">
+        <div className="mb-4 sm:mb-6 flex flex-wrap items-center justify-between gap-2.5 bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 shadow-xs">
           <div className="flex items-center gap-2 text-xs text-slate-600">
             <Info className="w-4 h-4 text-blue-800 shrink-0" />
             <span>
